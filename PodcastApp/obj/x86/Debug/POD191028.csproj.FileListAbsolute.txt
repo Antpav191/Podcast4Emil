@@ -1,0 +1,9 @@
+C:\Users\Styrman\Downloads\NyttTest191026(2)\NyttTest191026\obj\x86\Debug\POD191028.csprojAssemblyReference.cache
+C:\Users\Styrman\Downloads\NyttTest191026(2)\NyttTest191026\obj\x86\Debug\POD.Form1.resources
+C:\Users\Styrman\Downloads\NyttTest191026(2)\NyttTest191026\obj\x86\Debug\POD191028.POD.POD.Properties.Resources.resources
+C:\Users\Styrman\Downloads\NyttTest191026(2)\NyttTest191026\obj\x86\Debug\POD191028.csproj.GenerateResource.cache
+C:\Users\Styrman\Downloads\NyttTest191026(2)\NyttTest191026\bin\Debug\WindowsApplication.exe.config
+C:\Users\Styrman\Downloads\NyttTest191026(2)\NyttTest191026\bin\Debug\WindowsApplication.exe
+C:\Users\Styrman\Downloads\NyttTest191026(2)\NyttTest191026\bin\Debug\WindowsApplication.pdb
+C:\Users\Styrman\Downloads\NyttTest191026(2)\NyttTest191026\obj\x86\Debug\WindowsApplication.exe
+C:\Users\Styrman\Downloads\NyttTest191026(2)\NyttTest191026\obj\x86\Debug\WindowsApplication.pdb

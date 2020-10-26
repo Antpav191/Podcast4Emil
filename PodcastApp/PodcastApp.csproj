@@ -1,0 +1,136 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{B9469BFB-B937-4D7A-86E5-04F4367C5DAF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>POD191028</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include="POD\Data\Data.csproj" />
+    <Content Include="POD\Logic\Logic.csproj" />
+    <Content Include="POD\POD.sln" />
+    <Content Include="POD\GUI\bin\Debug\POD.exe" />
+    <Content Include="POD\GUI\bin\Debug\POD.pdb" />
+    <Content Include="POD\GUI\GUI.csproj" />
+    <Content Include="POD\GUI\obj\Debug\GUI.csproj.FileListAbsolute.txt" />
+    <Content Include="POD\GUI\obj\Debug\POD.exe" />
+    <Content Include="POD\GUI\obj\Debug\POD.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\NyttTest191026\v16\.suo" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="app.config" />
+    <None Include="POD\Data\obj\Debug\Data.csprojAssemblyReference.cache" />
+    <None Include="POD\Logic\obj\Debug\Logic.csprojAssemblyReference.cache" />
+    <None Include="POD\GUI\App.config" />
+    <None Include="POD\GUI\bin\Debug\POD.exe.config" />
+    <None Include="POD\GUI\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="POD\GUI\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="POD\GUI\obj\Debug\GUI.csproj.GenerateResource.cache" />
+    <None Include="POD\GUI\obj\Debug\GUI.csprojAssemblyReference.cache" />
+    <None Include="POD\GUI\Properties\Settings.settings" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="POD\Data\EntitetDB.cs" />
+    <Compile Include="POD\Data\KategoriDB.cs" />
+    <Compile Include="POD\Data\PodcastDB.cs" />
+    <Compile Include="POD\Data\Properties\AssemblyInfo.cs" />
+    <Compile Include="POD\Logic\IEntitet.cs" />
+    <Compile Include="POD\Logic\Kategori.cs" />
+    <Compile Include="POD\Logic\MasterClass.cs" />
+    <Compile Include="POD\Logic\Podcast.cs" />
+    <Compile Include="POD\Logic\PodcastAvsnitt.cs" />
+    <Compile Include="POD\Logic\Properties\AssemblyInfo.cs" />
+    <Compile Include="POD\Logic\Validering.cs" />
+    <Compile Include="POD\GUI\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POD\GUI\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POD\GUI\Program.cs" />
+    <Compile Include="POD\GUI\Properties\AssemblyInfo.cs" />
+    <Compile Include="POD\GUI\Properties\Resources.Designer.cs" />
+    <Compile Include="POD\GUI\Properties\Settings.Designer.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="POD\GUI\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POD\GUI\obj\Debug\POD.Form1.resources" />
+    <EmbeddedResource Include="POD\GUI\obj\Debug\POD.Properties.Resources.resources" />
+    <EmbeddedResource Include="POD\GUI\Properties\Resources.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\POD191028\v16\" />
+    <Folder Include="POD\Data\bin\Debug\" />
+    <Folder Include="POD\Data\bin\Release\" />
+    <Folder Include="POD\Data\obj\Debug\TempPE\" />
+    <Folder Include="POD\Data\obj\Release\" />
+    <Folder Include="POD\GUI\bin\Release\" />
+    <Folder Include="POD\GUI\obj\Debug\TempPE\" />
+    <Folder Include="POD\GUI\obj\Release\" />
+    <Folder Include="POD\Logic\bin\Debug\" />
+    <Folder Include="POD\Logic\bin\Release\" />
+    <Folder Include="POD\Logic\obj\Debug\TempPE\" />
+    <Folder Include="POD\Logic\obj\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

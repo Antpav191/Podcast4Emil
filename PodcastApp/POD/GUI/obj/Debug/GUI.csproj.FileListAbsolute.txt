@@ -1,0 +1,9 @@
+C:\Users\sebas\source\repos\SebastianStrid\NyttTest191026\POD\POD\bin\Debug\POD.exe.config
+C:\Users\sebas\source\repos\SebastianStrid\NyttTest191026\POD\POD\bin\Debug\POD.exe
+C:\Users\sebas\source\repos\SebastianStrid\NyttTest191026\POD\POD\bin\Debug\POD.pdb
+C:\Users\sebas\source\repos\SebastianStrid\NyttTest191026\POD\POD\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\sebas\source\repos\SebastianStrid\NyttTest191026\POD\POD\obj\Debug\POD.Form1.resources
+C:\Users\sebas\source\repos\SebastianStrid\NyttTest191026\POD\POD\obj\Debug\POD.Properties.Resources.resources
+C:\Users\sebas\source\repos\SebastianStrid\NyttTest191026\POD\POD\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\sebas\source\repos\SebastianStrid\NyttTest191026\POD\POD\obj\Debug\POD.exe
+C:\Users\sebas\source\repos\SebastianStrid\NyttTest191026\POD\POD\obj\Debug\POD.pdb
